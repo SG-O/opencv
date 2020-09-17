@@ -35,6 +35,10 @@ echo "Cleaning up Linux ARMv8..."
 rm -f src/main/resources/nu/pattern/opencv/linux/ARMv8/*.so
 echo "Copying Linux ARMv8..."
 cp $BASE_DIR/target/linux/ARMv8/lib/libopencv_java$SHORT_VERSION.so src/main/resources/nu/pattern/opencv/linux/ARMv8
+echo "Cleaning up Linux AARCH64..."
+rm -f src/main/resources/nu/pattern/opencv/linux/AARCH64/*.so
+echo "Copying Linux AARCH64..."
+cp $BASE_DIR/target/linux/AARCH64/lib/libopencv_java$SHORT_VERSION.so src/main/resources/nu/pattern/opencv/linux/AARCH64
 
 # Windows
 echo "Cleaning up Windows..."

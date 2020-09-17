@@ -5,12 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <packaging>bundle</packaging>
-  <groupId>org.openpnp</groupId>
+  <groupId>de.sg-o.lib</groupId>
   <artifactId>opencv</artifactId>
-  <version>4.3.0-2</version>
-  <name>OpenPnP OpenCV</name>
+  <version>4.3.0-3</version>
+  <name>SG-O's OpenCV</name>
   <description>OpenCV packaged with native libraries and loader for multiple platforms.</description>
-  <url>http://github.com/openpnp/opencv</url>
+  <url>http://github.com/SG-O/opencv</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -68,15 +68,15 @@
   </licenses>
 
   <scm>
-    <url>http://github.com/openpnp/opencv</url>
-    <connection>scm:git:http://github.com/openpnp/opencv.git</connection>
-    <developerConnection>scm:git:http://github.com/openpnp/opencv.git</developerConnection>
-    <tag>v3.2.0-1</tag>
+    <url>http://github.com/SG-O/opencv</url>
+    <connection>scm:git:http://github.com/SG-O/opencv.git</connection>
+    <developerConnection>scm:git:http://github.com/SG-O/opencv.git</developerConnection>
+    <tag>v3.2.0-3</tag>
   </scm>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>http://github.com/openpnp/opencv/issues</url>
+    <url>http://github.com/SG-O/opencv/issues</url>
   </issueManagement>
 
   <developers>
@@ -102,6 +102,16 @@
       <!--<properties>
         <picUrl>http://pattern.nu/images/team/michael.ahlers.png</picUrl>
       </properties>-->
+    </developer>
+    <developer>
+      <id>sg-o</id>
+      <name>Joerg Bayer</name>
+      <email>admin@sg-o.de</email>
+      <organization>SG-O</organization>
+      <organizationUrl>http://sg-o.de</organizationUrl>
+      <roles>
+        <role>contributor</role>
+      </roles>
     </developer>
   </developers>
 

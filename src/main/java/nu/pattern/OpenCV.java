@@ -67,7 +67,8 @@ public class OpenCV {
   static enum Arch {
     X86_32("i386", "i686", "x86"),
     X86_64("amd64", "x86_64"),
-	  ARMv8("arm");
+	ARMv8("arm"),
+    AARCH64("aarch64");
 
     private final Set<String> patterns;
 
@@ -351,8 +352,11 @@ public class OpenCV {
             location = "/nu/pattern/opencv/linux/x86_64/libopencv_java430.so";
             break;
           case ARMv8:
-              location = "/nu/pattern/opencv/linux/ARMv8/libopencv_java430.so";
-              break;
+            location = "/nu/pattern/opencv/linux/ARMv8/libopencv_java430.so";
+            break;
+          case AARCH64:
+            location = "/nu/pattern/opencv/linux/AARCH64/libopencv_java430.so";
+            break;
           default:
             throw new UnsupportedPlatformException(os, arch);
         }
